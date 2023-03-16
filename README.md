@@ -1,70 +1,100 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FlashCard Generator
 
-## Available Scripts
+This is a Capstone Project.In which we are going to Create a FlashCard.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- Light/Dark moode Toggle option.
+- From Validation.
+- FlashCard generator.
+- Contain three pages.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What I used.
+- React.js.
+- Redux/@toolkit.
+- yup.
+- Formik.
+- react-share-icons.
+- react-routing.
+- react-bootstrap-modal.
+- font-awesome-icons.
+- react-hooks.
+## About Project
+- This is a Capstone Project - Flashcard Generater.
+✅which has mainly 3 pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Create Input  Page.
+- MyFlashcard Page.
+- Flashcard Details Page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- First page was to Create in which contains two form one for the name & description of the flashcard and also has functionality to add Images, second form was to create Dynamic Form which was created using FORMIK, which has individual card Title name & card about. After clicking the Create Button, the Flashcard will be created.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Also has form validations using Formik & Yup library which has some conditions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- In the First Page there are two buttin one is for Creating Flashcard and second is just additional for refreshing the app.
+ 
+- The second page was to display all the user created cards,which has two Buttons one for showing Cards and second for Removing the Cards.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- In the second page when user clicked on the Remove Card a popup will to confirm the  validation..
 
-## Learn More
+- After clicking on the show Cards, User redirected to flashcard details page, where user can see all the cards on that flashcard, on the left side all the Card title name ,at the middle it show the user selected Image and the right side its shows the user selected About..
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- On the right side there are the icons, by clicking on the icons a  popup window will open where you can share the current page on the social media like facebook,twitter,linkdin,etc.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- In each of three page there is a social media Icons where user can Directly contact the Person who Created the Application.
 
-### Code Splitting
+- In the Application there is also Light/Dark mode Toggle switch user can easily switch mode .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- I use Redux@/toolkit for the state  management throughout the entire application.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+To deploy this project run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm run deploy
+```
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 About Me
+I'm a full stack developer...
+- Write a mail on :rkeshri522@gmail.com
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Starting the App
 
-### `npm run build` fails to minify
+To start,run the following comman
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm start
+```
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
