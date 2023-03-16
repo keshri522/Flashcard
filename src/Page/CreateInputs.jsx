@@ -25,7 +25,9 @@ const CreateInputs = () => {
         //    once we clicked on Create then all the fields like input and image are set to isEmpty..
         actions.resetForm();
         Settitleimg("");
+        alert("Generated Successfully go to Myflashcards")
     }
+   
     return (
         <>
             <Formik
