@@ -1,8 +1,4 @@
 import React from 'react';
-// import { faFacebook,faGithub, faLinkedin,faInstagram} from "@fortawesome/free-brands-svg-icons";
-// import { NavLink } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faShare } from '@fortawesome/free-solid-svg-icons';
 import {  FacebookShareButton , LinkedinShareButton,WhatsappShareButton,TwitterShareButton, FacebookIcon,  LinkedinIcon,  TwitterIcon,  WhatsappIcon,} from "react-share"
 
 const Sharemodal = () => {
