@@ -5,18 +5,14 @@ import Sharemodal from '../Components/Sociaicons/sharemodal';
 const Homepage = () => {
     return (
         <>
-        
-        <div className="container pt-3 background-color ">
+            <div className="container pt-3 background-color ">
                 <CreateInputs></CreateInputs>
                 <div className="d-flex justify-content-end ">
-        <Sharemodal></Sharemodal>
-        </div>
-                
-          
+                    <Sharemodal></Sharemodal>
+                </div>
             </div>
-
+           
         </>
-
     );
 };
 
